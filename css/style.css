@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Fredoka', sans-serif;
     width: 70%;
     margin: auto;
 }
@@ -19,3 +19,22 @@ h1{
     color: #e53170;
     padding-bottom: 30px;
 }
+
+.row{
+    margin: 5 px;
+}
+
+.row::after{
+    color: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+    background-color: red;
+    border: 1px solid black;
+    width: calc(100%/3 - 10px);
+    height: 150px;
+    float: left;
+}
+
