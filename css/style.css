@@ -33,7 +33,6 @@ h1{
 .card{
     background-color: #0f0e17;
     width: calc(100%/3 - 20px);
-    height: 150px;
     margin: 0 10px;
     margin-bottom: 20px;
     float: left;
@@ -63,10 +62,10 @@ img{
     float: left;
     font-size: 15px;
     color: rgb(61, 191, 235);
-    padding: 10px 0;
+    padding: 7px 0;
 }
 
 .name, .work{
     color: white;
-    padding: 10px 0;
+    padding: 7px 0;
 }
