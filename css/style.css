@@ -31,10 +31,41 @@ h1{
 }
 
 .card{
-    background-color: red;
-    border: 1px solid black;
-    width: calc(100%/3 - 10px);
+    background-color: #0f0e17;
+    width: calc(100%/3 - 20px);
     height: 150px;
+    margin: 0 10px;
+    margin-bottom: 20px;
     float: left;
 }
 
+.card::after{
+    color: "";
+    display: table;
+    clear: both;
+}
+
+img{
+    float: left;
+    width: 40%;
+}
+
+.name{
+    display: block;
+}
+
+.work{
+    display: block;
+}
+
+.mail{
+    float: left;
+    font-size: 15px;
+    color: rgb(61, 191, 235);
+    padding: 10px 0;
+}
+
+.name, .work{
+    color: white;
+    padding: 10px 0;
+}
